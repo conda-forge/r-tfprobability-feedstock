@@ -1,4 +1,4 @@
-{% set version = '0.11.0.0' %}
+{% set version = "0.12.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tfprobability_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tfprobability/tfprobability_{{ version }}.tar.gz
-  sha256: bfd97b009afee62fed18ff333d2984c92f8c6196ec77124bdd2ebee61f929055
+  sha256: a0a801592260cb5950c64c70f3655b8bc97b2b35818172dc85b8c0b7eb77a7b8
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -44,13 +44,10 @@ test:
 about:
   home: https://github.com/rstudio/tfprobability
   license: Apache-2.0
-  summary: Interface to 'TensorFlow Probability', a 'Python' library built on 'TensorFlow' that
-    makes it easy to combine probabilistic models and deep learning on modern hardware
-    ('TPU', 'GPU'). 'TensorFlow Probability' includes a wide selection of probability
-    distributions and bijectors, probabilistic layers, variational inference, Markov
-    chain Monte Carlo, and optimizers such as Nelder-Mead, BFGS, and SGLD.
+  summary: Interface to 'TensorFlow Probability', a 'Python' library built on 'TensorFlow' that makes it easy to combine probabilistic models and deep learning on modern hardware ('TPU', 'GPU'). 'TensorFlow Probability' includes a wide selection of probability distributions and bijectors, probabilistic layers, variational
+    inference, Markov chain Monte Carlo, and optimizers such as Nelder-Mead, BFGS, and SGLD.
   license_family: APACHE
-  license_file: 'LICENSE'
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
