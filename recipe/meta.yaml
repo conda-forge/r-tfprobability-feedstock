@@ -1,4 +1,4 @@
-{% set version = "0.12.0.0" %}
+{% set version = "0.15.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tfprobability_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tfprobability/tfprobability_{{ version }}.tar.gz
-  sha256: a0a801592260cb5950c64c70f3655b8bc97b2b35818172dc85b8c0b7eb77a7b8
+  sha256: b2bf4b34119bc06d05a44875c9014c58936767f7f611d74ae6b300d45ffc5a77
 
 build:
   merge_build_host: true  # [win]
