@@ -1,11 +1,11 @@
-About r-tfprobability
-=====================
+About r-tfprobability-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfprobability-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/tfprobability
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfprobability-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'TensorFlow Probability', a 'Python' library built on 'TensorFlow' that makes it easy to combine probabilistic models and deep learning on modern hardware ('TPU', 'GPU'). 'TensorFlow Probability' includes a wide selection of probability distributions and bijectors, probabilistic layers, variational inference, Markov chain Monte Carlo, and optimizers such as Nelder-Mead, BFGS, and SGLD.
 
