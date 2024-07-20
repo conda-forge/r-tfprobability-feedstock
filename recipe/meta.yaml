@@ -1,6 +1,5 @@
 {% set version = "0.15.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-tfprobability
@@ -13,8 +12,7 @@ source:
   sha256: bd8042e4c2e0b6e253f49146cedece594b9deeff2089fd42eac310e823a3482b
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
