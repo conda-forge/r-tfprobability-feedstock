@@ -1,4 +1,4 @@
-{% set version = "0.15.1" %}
+{% set version = "0.15.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tfprobability_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tfprobability/tfprobability_{{ version }}.tar.gz
-  sha256: bd8042e4c2e0b6e253f49146cedece594b9deeff2089fd42eac310e823a3482b
+  sha256: 9268e148396a4231aa11bee32ddd755e879abe243b84c3064e010db1d21bd46c
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
